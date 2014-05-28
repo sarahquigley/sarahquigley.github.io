@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2.6vw;
+  color: #111111;
+  font-family: "Droid Serif", Georgia, "Times New Roman", serif;
+  text-align: justify;
+}
+
+body{
+  margin: 5vw auto;
+  width: 80vw;
+  background-image: url("images/bg.png");
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+
+header{
+  margin-bottom: 6vw;
+}
+
+section{
+  margin-bottom: 4vw;
+}
+
+footer{
+  text-align: center;
+  font-style: italic;
+  font-size: 2.5vw;
+  padding-top: 3vw;
+}
+
+figure{
+  width: 30vw;
+  height: 30vw;
+  margin: 0 auto 5vw auto;
+  border-radius: 50%;
+  background-image: url("images/about.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+img{
+  display: none;
+}
+
+h1{
+  font-size: 8vw;
+}
+
+h2{
+  font-size: 4.8vw;
+}
+
+h1, h2{
+  margin-bottom: 2vw;
+}
+
+p{
+  font-style: italic;
+}
+
+ul{
+  list-style: none;
+  padding-left: 4vw;
+}
+
+li{
+  margin-bottom: 1vw;
+}
+
+a{
+  font-size: inherit;
+  color: #d74939;
+  text-decoration: none;
+}
+
+a > i{
+  color: inherit;
+}
+
+h2 > i{
+  width: 1.5vw;
+}
+
+li > i{
+  font-size: 0.8em;
+}
+
+i{
+  font-size: inherit;
+  color: #d74939;
+  margin-right: 2.5vw;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width: 900px){
+  
+  figure{
+    width: 25vw;
+    height: 25vw;
+    margin: 0 0 3vw 0;
+    float: left;
+  }
+
+  footer{
+    width: 25vw;
+    float: left;
+  }
+
+  div{
+    width: 55vw;
+    padding-left: 5vw;
+    float: right;
+  }
+
+  ul{
+    padding-left: 2.5vw;
+  }
+  
+  footer{
+    padding-top: 0;
+    font-size: 1.5vw;
+  }
+
+  h1{
+    font-size: 5.4vw;
+  }
+
+  h2{
+    font-size: 3vw;
+  }
+
+  li{
+    margin-bottom: 0.5vw;
+  }
+
+  i{
+    margin-right: 1vw;
+  }
+
+  *{
+    font-size: 1.6vw;
+  }
+
+}
