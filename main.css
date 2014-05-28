@@ -3,14 +3,16 @@
   border: none;
   padding: 0;
   box-sizing: border-box;
+  font-size: 20px;
   font-size: 2.6vw;
   color: #111111;
   font-family: "Droid Serif", Georgia, "Times New Roman", serif;
-  text-align: justify;
 }
 
 body{
+  margin: 5% auto;
   margin: 5vw auto;
+  width: 80%;
   width: 80vw;
   background-image: url("images/bg.png");
   background-position: 0% 0%;
@@ -18,10 +20,12 @@ body{
 }
 
 header{
+  margin-bottom: 7%;
   margin-bottom: 6vw;
 }
 
 section{
+  margin-bottom: 5%;
   margin-bottom: 4vw;
 }
 
@@ -29,12 +33,17 @@ footer{
   text-align: center;
   font-style: italic;
   font-size: 2.5vw;
+  padding-top: 3%;
   padding-top: 3vw;
 }
 
 figure{
+  width: 37.5%;
   width: 30vw;
   height: 30vw;
+  padding-top: 37.5%;
+  padding-top: 0vw;
+  margin: 0 auto 5% auto;
   margin: 0 auto 5vw auto;
   border-radius: 50%;
   background-image: url("images/about.jpg");
@@ -47,14 +56,17 @@ img{
 }
 
 h1{
+  font-size: 72px;
   font-size: 8vw;
 }
 
 h2{
+  font-size: 40px;
   font-size: 4.8vw;
 }
 
 h1, h2{
+  margin-bottom: 2%;
   margin-bottom: 2vw;
 }
 
@@ -64,10 +76,12 @@ p{
 
 ul{
   list-style: none;
+  padding-left: 30px;
   padding-left: 4vw;
 }
 
 li{
+  margin-bottom: 5px;
   margin-bottom: 1vw;
 }
 
@@ -92,6 +106,7 @@ li > i{
 i{
   font-size: inherit;
   color: #d74939;
+  margin-right: 2%;
   margin-right: 2.5vw;
 }
 
@@ -104,29 +119,38 @@ i{
 @media screen and (min-width: 900px){
   
   figure{
+    width: 31.25%;
     width: 25vw;
     height: 25vw;
+    padding-top: 31.25%;
+    padding-top: 0vw;
+    margin: 0 0 3% 0;
     margin: 0 0 3vw 0;
     float: left;
   }
 
   footer{
+    width: 31.25%;
     width: 25vw;
     float: left;
   }
 
   div{
+    width: 68.75%;
     width: 55vw;
+    padding-left: 5%;
     padding-left: 5vw;
     float: right;
   }
 
   ul{
+    padding-left: 30px;
     padding-left: 2.5vw;
   }
   
   footer{
     padding-top: 0;
+    font-size: 18px;
     font-size: 1.5vw;
   }
 
