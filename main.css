@@ -86,7 +86,7 @@ h2, ul{
 }
 
 li{
-  margin-bottom: 5px;
+  margin-bottom: 10px; 
   margin-bottom: 1vw;
 }
 
@@ -125,10 +125,12 @@ i{
 @media screen and (max-width: 500px){
 
   header{
+    margin-bottom: 10%;
     margin-bottom: 10vw;
   }
 
   section{
+    margin-bottom: 8%;
     margin-bottom: 8vw;
   }
   
@@ -137,22 +139,27 @@ i{
   }
 
   h1, h2{
+    margin-bottom: 5%;
     margin-bottom: 5vw;
   }
 
   h1{
+    font-size: 55px;
     font-size: 15vw;
   }
 
   section > i, h2{
+    font-size: 30px; 
     font-size: 8vw;
   }
 
   h2, ul{
+    padding-left: 20px;
     padding-left: 5.5vw;
   }
 
   li{
+    margin-bottom: 7px;
     margin-bottom: 2.5vw;
   }
 
@@ -161,10 +168,19 @@ i{
   }
 
   body{
+    font-size: 15px; 
     font-size: 4.5vw;
   }
 
 }
+
+@media screen and (max-width: 350px){
+  h1{
+    font-size: 45px;
+    font-size: 15vw;
+  }
+}
+
 
 @media screen and (orientation: landscape) and (min-width: 900px){
   
