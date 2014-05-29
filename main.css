@@ -116,7 +116,12 @@ i{
   clear: both;
 }
 
-@media screen and (min-width: 900px){
+
+/*************************************************
+ * Media Queries
+ * **********************************************/
+
+@media screen and (orientation: landscape) and (min-width: 900px){
   
   figure{
     width: 31.25%;
@@ -133,6 +138,9 @@ i{
     width: 31.25%;
     width: 25vw;
     float: left;
+    padding-top: 0;
+    font-size: 18px;
+    font-size: 1.5vw;
   }
 
   div{
@@ -148,12 +156,6 @@ i{
     padding-left: 2.5vw;
   }
   
-  footer{
-    padding-top: 0;
-    font-size: 18px;
-    font-size: 1.5vw;
-  }
-
   h1{
     font-size: 5.4vw;
   }
