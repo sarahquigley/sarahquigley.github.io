@@ -1,11 +1,11 @@
+
 * {
   margin: 0;
   border: none;
   padding: 0;
   box-sizing: border-box;
-  font-size: 20px;
-  font-size: 2.6vw;
   color: #111111;
+  font-size: inherit;
   font-family: "Droid Serif", Georgia, "Times New Roman", serif;
 }
 
@@ -14,6 +14,8 @@ body{
   margin: 5vw auto;
   width: 80%;
   width: 80vw;
+  font-size: 20px;
+  font-size: 2.6vw;
   background-image: url("images/bg.png");
   background-position: 0% 0%;
   background-repeat: repeat;
@@ -60,7 +62,7 @@ h1{
   font-size: 8vw;
 }
 
-h2{
+section > i, h2{
   font-size: 40px;
   font-size: 4.8vw;
 }
@@ -76,6 +78,9 @@ p{
 
 ul{
   list-style: none;
+}
+
+h2, ul{
   padding-left: 30px;
   padding-left: 4vw;
 }
@@ -86,7 +91,6 @@ li{
 }
 
 a{
-  font-size: inherit;
   color: #d74939;
   text-decoration: none;
 }
@@ -95,16 +99,13 @@ a > i{
   color: inherit;
 }
 
-h2 > i{
+section > i{
   width: 1.5vw;
-}
-
-li > i{
-  font-size: 0.8em;
+  margin-top: 0.4vw;
+  float: left;
 }
 
 i{
-  font-size: inherit;
   color: #d74939;
   margin-right: 2%;
   margin-right: 2.5vw;
@@ -120,6 +121,50 @@ i{
 /*************************************************
  * Media Queries
  * **********************************************/
+
+@media screen and (max-width: 500px){
+
+  header{
+    margin-bottom: 10vw;
+  }
+
+  section{
+    margin-bottom: 8vw;
+  }
+  
+  footer{
+    font-size: 4vw;
+  }
+
+  h1, h2{
+    margin-bottom: 5vw;
+  }
+
+  h1{
+    font-size: 15vw;
+  }
+
+  section > i, h2{
+    font-size: 8vw;
+  }
+
+  h2, ul{
+    padding-left: 5.5vw;
+  }
+
+  li{
+    margin-bottom: 2.5vw;
+  }
+
+  i{
+    margin-right: 4vw;
+  }
+
+  body{
+    font-size: 4.5vw;
+  }
+
+}
 
 @media screen and (orientation: landscape) and (min-width: 900px){
   
@@ -151,8 +196,7 @@ i{
     float: right;
   }
 
-  ul{
-    padding-left: 30px;
+  h2, ul{
     padding-left: 2.5vw;
   }
   
@@ -160,7 +204,7 @@ i{
     font-size: 5.4vw;
   }
 
-  h2{
+  section > i, h2{
     font-size: 3vw;
   }
 
@@ -172,8 +216,9 @@ i{
     margin-right: 1vw;
   }
 
-  *{
+  body{
     font-size: 1.6vw;
   }
 
 }
+
