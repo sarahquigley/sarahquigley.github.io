@@ -19,6 +19,6 @@ I realised I didn't have anywhere describing all the diverse things that I've do
 
 ## Supported browsers 
 
-Chrome 20+, Firefox 19+, IE 9+, Opera 15+, Safari 6+.
+Chrome, Firefox 3.6+, IE 9+, Opera 10+, Safari.
 
 

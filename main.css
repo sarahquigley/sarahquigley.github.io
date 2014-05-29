@@ -49,6 +49,9 @@ figure{
   margin: 0 auto 5vw auto;
   border-radius: 50%;
   background-image: url("images/about.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: 50% 50%;
 }
