@@ -3,7 +3,7 @@ sarahquigley.net
 
 A brief summary of myself, with links to various projects.
 
-Find out about me: [sarahquigley.net](http://sarahquigley.github.io/sarahquigley.net)
+Find out about me: [sarahquigley.net](http://sarahquigley.net)
 
 ## What is this project?
 
@@ -11,7 +11,7 @@ This is a tiny website with a little information about me, and a comprehensive s
 
 ## How did you make this?
 
-Nothing fancy going on here, just some simple css and media queries. 
+Nothing fancy going on here, just some simple css and media queries. The design is totally responsive, which is nice.
 
 ## Why did you make this?
 
