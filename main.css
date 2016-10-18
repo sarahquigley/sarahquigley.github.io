@@ -1,243 +1,84 @@
-
 * {
   margin: 0;
   border: none;
   padding: 0;
   box-sizing: border-box;
-  color: #111111;
-  font-size: inherit;
-  font-family: "Droid Serif", Georgia, "Times New Roman", serif;
+  color: white;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
 }
 
-body{
-  margin: 5% auto;
-  margin: 5vw auto;
-  width: 80%;
-  width: 80vw;
-  font-size: 20px;
-  font-size: 2.6vw;
-  background-image: url("images/bg.png");
-  background-position: 0% 0%;
-  background-repeat: repeat;
-}
-
-header{
-  margin-bottom: 7%;
-  margin-bottom: 6vw;
-}
-
-section{
-  margin-bottom: 5%;
-  margin-bottom: 4vw;
-}
-
-footer{
-  text-align: center;
-  font-style: italic;
-  font-size: 2.5vw;
-  padding-top: 3%;
-  padding-top: 3vw;
-}
-
-figure{
-  width: 37.5%;
-  width: 30vw;
-  height: 30vw;
-  padding-top: 37.5%;
-  padding-top: 0vw;
-  margin: 0 auto 5% auto;
-  margin: 0 auto 5vw auto;
-  border-radius: 50%;
-  background-image: url("images/about.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-img{
-  display: none;
-}
-
-h1{
-  font-size: 72px;
-  font-size: 8vw;
-}
-
-section > i, h2{
-  font-size: 40px;
-  font-size: 4.8vw;
-}
-
-h1, h2{
-  margin-bottom: 2%;
-  margin-bottom: 2vw;
-}
-
-p{
-  font-style: italic;
-}
-
-ul{
-  list-style: none;
-}
-
-h2, ul{
-  padding-left: 30px;
-  padding-left: 4vw;
-}
-
-li{
-  margin-bottom: 10px; 
-  margin-bottom: 1vw;
-}
-
-a{
-  color: #d74939;
-  text-decoration: none;
-}
-
-a > i{
-  color: inherit;
-}
-
-section > i{
-  width: 1.5vw;
-  margin-top: 0.4vw;
-  float: left;
-}
-
-i{
-  color: #d74939;
-  margin-right: 2%;
-  margin-right: 2.5vw;
-}
-
-.clearfix:after{
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-
-/*************************************************
- * Media Queries
- * **********************************************/
-
-@media screen and (max-width: 500px){
-
-  header{
-    margin-bottom: 10%;
-    margin-bottom: 10vw;
-  }
-
-  section{
-    margin-bottom: 8%;
-    margin-bottom: 8vw;
-  }
-  
-  footer{
-    font-size: 4vw;
-  }
-
-  h1, h2{
-    margin-bottom: 5%;
-    margin-bottom: 5vw;
-  }
-
-  h1{
-    font-size: 55px;
-    font-size: 15vw;
-  }
-
-  section > i, h2{
-    font-size: 30px; 
-    font-size: 8vw;
-  }
-
-  h2, ul{
-    padding-left: 20px;
-    padding-left: 5.5vw;
-  }
-
-  li{
-    margin-bottom: 7px;
-    margin-bottom: 2.5vw;
-  }
-
-  i{
-    margin-right: 4vw;
-  }
-
-  body{
-    font-size: 15px; 
-    font-size: 4.5vw;
-  }
-
+body{
+  background-color: #191416;
 }
 
-@media screen and (max-width: 350px){
-  h1{
-    font-size: 45px;
-    font-size: 15vw;
-  }
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-@media screen and (orientation: landscape) and (min-width: 900px){
-  
-  figure{
-    width: 31.25%;
-    width: 25vw;
-    height: 25vw;
-    padding-top: 31.25%;
-    padding-top: 0vw;
-    margin: 0 0 3% 0;
-    margin: 0 0 3vw 0;
-    float: left;
-  }
-
-  footer{
-    width: 31.25%;
-    width: 25vw;
-    float: left;
-    padding-top: 0;
-    font-size: 18px;
-    font-size: 1.5vw;
-  }
-
-  div{
-    width: 68.75%;
-    width: 55vw;
-    padding-left: 5%;
-    padding-left: 5vw;
-    float: right;
-  }
-
-  h2, ul{
-    padding-left: 2.5vw;
-  }
-  
-  h1{
-    font-size: 5.4vw;
-  }
-
-  section > i, h2{
-    font-size: 3vw;
-  }
-
-  li{
-    margin-bottom: 0.5vw;
-  }
-
-  i{
-    margin-right: 1vw;
-  }
-
-  body{
-    font-size: 1.6vw;
-  }
-
+h1 {
+  font-size: 4rem;
 }
 
+h2 .fa {
+  font-size: 3rem;
+  padding-right: 0.3em;
+}
+h2 {
+  font-size: 2rem;
+}
+
+i {
+  color: #ffaf5c;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.resume {
+  font-size: 1.5rem;
+}
+
+.resume a {
+  display: block;
+  float: left;
+  color: #fd78a8;
+  text-decoration: none;
+  border-right: 2px solid #fd78a8;
+  padding: 0 1em;
+}
+
+.resume a:first-child {
+  padding-left: 0;
+}
+
+.resume a:last-child {
+  border-right: none;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+.social a {
+  padding-right: 0.3em;
+}
+
+.social a:last-child {
+  padding-right: 0;
+}
