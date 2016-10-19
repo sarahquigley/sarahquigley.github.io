@@ -29,10 +29,11 @@ h1 {
   font-size: 4rem;
 }
 
-h2 .fa {
+header .fa {
   font-size: 3rem;
   padding-right: 0.3em;
 }
+
 h2 {
   font-size: 2rem;
 }
@@ -40,6 +41,8 @@ h2 {
 i {
   color: #ffaf5c;
 }
+
+/* Footer */
 
 footer {
   text-align: center;
@@ -81,4 +84,118 @@ footer {
 
 .social a:last-child {
   padding-right: 0;
+}
+
+/* Fadein Animations */
+
+@-webkit-keyframes fadeIn {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+@-moz-keyframes fadeIn {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+@keyframes fadeIn {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1 1s forwards;
+  -moz-animation: fadeIn ease-in 1 1s forwards;
+  animation: fadeIn ease-in 1 1s forwards;
+}
+
+.fade-in-order-2 {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in-order-3 {
+  -webkit-animation-delay: 12.2s;
+  -moz-animation-delay: 12.2s;
+  animation-delay: 12.2s;
+}
+
+.fade-in-order-4 {
+  -webkit-animation-delay: 20.2s;
+  -moz-animation-delay: 20.2s;
+  animation-delay: 20.2s;
+}
+
+/* Typing Animations */
+
+@-webkit-keyframes typing {
+  from { width: 100% }
+  to { width: 31px }
+}
+
+@-moz-keyframes typing {
+  from { width: 100% }
+  to { width: 0 }
+}
+
+@keyframes typing {
+  from { width: 100% }
+  to { width: 0 }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+.typing-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.typing {
+  position: relative;
+}
+
+.typing span {
+  position:absolute;
+  top:0;
+  right:0;
+  width:0;
+  background: #191416;
+  border-left: .1em solid transparent;
+  height: 105%;
+  width: 101%;
+}
+
+.typing.adventures span {
+  -webkit-animation: typing 10.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 11 1.7s;
+  -moz-animation: typing 10.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 11 1s;
+  animation: typing 10.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 11 1.7s;
+}
+
+.typing.codes span {
+  -webkit-animation: typing 6.5s steps(13, end) 13.2s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 13.2s 7;
+  -moz-animation: typing 6.5s steps(13, end) 13.2s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 13.2s 7;
+  animation: typing 6.5s steps(13, end) 13.2s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 13.2s 7;
 }
