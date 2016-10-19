@@ -117,15 +117,15 @@ footer {
 }
 
 .fade-in-order-3 {
-  -webkit-animation-delay: 12.2s;
-  -moz-animation-delay: 12.2s;
-  animation-delay: 12.2s;
+  -webkit-animation-delay: 5.7s;
+  -moz-animation-delay: 5.7s;
+  animation-delay: 5.7s;
 }
 
 .fade-in-order-4 {
-  -webkit-animation-delay: 20.2s;
-  -moz-animation-delay: 20.2s;
-  animation-delay: 20.2s;
+  -webkit-animation-delay: 10.7s;
+  -moz-animation-delay: 10.7s;
+  animation-delay: 10.7s;
 }
 
 /* Typing Animations */
@@ -183,19 +183,19 @@ footer {
 }
 
 .typing.adventures span {
-  -webkit-animation: typing 10.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 11 1.7s;
-  -moz-animation: typing 10.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 11 1s;
-  animation: typing 10.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 11 1.7s;
+  -webkit-animation: typing 2.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 4 1.7s;
+  -moz-animation: typing 2.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 4 1.7s;
+  animation: typing 2.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 4 1.7s;
 }
 
 .typing.codes span {
-  -webkit-animation: typing 6.5s steps(13, end) 13.2s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 13.2s 7;
-  -moz-animation: typing 6.5s steps(13, end) 13.2s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 13.2s 7;
-  animation: typing 6.5s steps(13, end) 13.2s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 13.2s 7;
+  -webkit-animation: typing 1.55s steps(13, end) 6.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 6.7s 3;
+  -moz-animation: typing 1.55s steps(13, end) 6.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 6.7s 3;
+  animation: typing 1.55s steps(13, end) 6.7s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 6.7s 3;
 }
