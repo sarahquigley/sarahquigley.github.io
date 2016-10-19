@@ -117,15 +117,15 @@ footer {
 }
 
 .fade-in-order-3 {
-  -webkit-animation-delay: 5.7s;
-  -moz-animation-delay: 5.7s;
-  animation-delay: 5.7s;
+  -webkit-animation-delay: 6.2s;
+  -moz-animation-delay: 6.2s;
+  animation-delay: 6.2s;
 }
 
 .fade-in-order-4 {
-  -webkit-animation-delay: 10.7s;
-  -moz-animation-delay: 10.7s;
-  animation-delay: 10.7s;
+  -webkit-animation-delay: 10.75s;
+  -moz-animation-delay: 10.75s;
+  animation-delay: 10.75s;
 }
 
 /* Typing Animations */
@@ -177,25 +177,25 @@ footer {
   right:0;
   width:0;
   background: #191416;
-  border-left: .1em solid transparent;
+  border-left: .1em solid white;
   height: 105%;
   width: 101%;
 }
 
 .typing.adventures span {
   -webkit-animation: typing 2.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 4 1.7s;
+  blink-caret 1s step-end 2 4.2s forwards;
   -moz-animation: typing 2.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 4 1.7s;
+  blink-caret 1s step-end 2 4.2s forwards;
   animation: typing 2.5s steps(21, end) 1.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 4 1.7s;
+  blink-caret 1s step-end 2 4.2s forwards;
 }
 
 .typing.codes span {
-  -webkit-animation: typing 1.55s steps(13, end) 6.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 6.7s 3;
-  -moz-animation: typing 1.55s steps(13, end) 6.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 6.7s 3;
-  animation: typing 1.55s steps(13, end) 6.7s forwards, /* # of steps = # of characters */
-  blink-caret 1s step-end 6.7s 3;
+  -webkit-animation: typing 1.55s steps(13, end) 7.2s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 8.75s 2 forwards;
+  -moz-animation: typing 1.55s steps(13, end) 7.2s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 8.75s 2 forwards;
+  animation: typing 1.55s steps(13, end) 7.2s forwards, /* # of steps = # of characters */
+  blink-caret 1s step-end 8.75s 2 forwards;
 }
