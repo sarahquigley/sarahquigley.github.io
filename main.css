@@ -24,6 +24,10 @@ body{
   justify-content: center;
 }
 
+.content {
+  padding: 3em;
+}
+
 h1 {
   font-size: 4rem;
 }
