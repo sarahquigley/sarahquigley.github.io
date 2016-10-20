@@ -13,10 +13,19 @@
   font-weight: 400;
 }
 
+html {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 body{
   background-color: #191416;
 }
-
 .container {
   height: 100%;
   display: flex;
@@ -24,16 +33,16 @@ body{
   justify-content: center;
 }
 
-.content {
-  padding: 3em;
-}
-
-h1 {
+header {
   font-size: 4rem;
 }
 
+h1 {
+  font-size: 1em;
+}
+
 h2 {
-  font-size: 2rem;
+  font-size: 0.5em;
 }
 
 i {
@@ -46,19 +55,17 @@ i {
  * *******************/
 
 footer {
+  font-size: 1.5rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-.resume {
-  font-size: 1.5rem;
-}
-
 .resume a {
+  font-size: 1em;
   color: #fd78a8;
   text-decoration: none;
   border-right: 2px solid #fd78a8;
@@ -78,8 +85,9 @@ footer {
 }
 
 .social a {
+  font-size: 1.25em;
   color: #ffaf5c;
-  padding-right: 0.6em;
+  padding-right: 0.4em;
 }
 
 .social a:last-child {
