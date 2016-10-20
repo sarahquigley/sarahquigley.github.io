@@ -1,3 +1,8 @@
+/* Sarah's simple portfolio
+ * Hurray!
+ * *************************************/
+
+
 * {
   margin: 0;
   border: none;
@@ -6,12 +11,6 @@
   color: white;
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 body{
@@ -29,20 +28,18 @@ h1 {
   font-size: 4rem;
 }
 
-header .fa {
-  font-size: 3rem;
-  padding-right: 0.3em;
-}
-
 h2 {
   font-size: 2rem;
 }
 
 i {
-  color: #ffaf5c;
+  color: inherit;
 }
 
-/* Footer */
+
+/*********************
+ * Footer
+ * *******************/
 
 footer {
   text-align: center;
@@ -58,8 +55,6 @@ footer {
 }
 
 .resume a {
-  display: block;
-  float: left;
   color: #fd78a8;
   text-decoration: none;
   border-right: 2px solid #fd78a8;
@@ -79,14 +74,19 @@ footer {
 }
 
 .social a {
-  padding-right: 0.3em;
+  color: #ffaf5c;
+  padding-right: 0.6em;
 }
 
 .social a:last-child {
   padding-right: 0;
 }
 
-/* Fadein Animations */
+
+
+/*********************
+ * Fadein Animations
+ * *******************/
 
 @-webkit-keyframes fadeIn {
   from { opacity:0; }
@@ -128,11 +128,15 @@ footer {
   animation-delay: 9.75s;
 }
 
-/* Typing Animations */
+
+
+/*********************
+ * Typing Animations
+ * *******************/
 
 @-webkit-keyframes typing {
   from { width: 100% }
-  to { width: 31px }
+  to { width: 0 }
 }
 
 @-moz-keyframes typing {
@@ -160,6 +164,12 @@ footer {
   50% { border-color: white }
 }
 
+
+
+/*********************
+ * Typing Styles
+ * *******************/
+
 .typing-container {
   display: flex;
   align-items: center;
@@ -169,6 +179,12 @@ footer {
 
 .typing {
   position: relative;
+}
+
+.typing-prompt i {
+  color: #ffaf5c;
+  font-size: 3rem;
+  padding-right: 0.3em;
 }
 
 .typing span {
